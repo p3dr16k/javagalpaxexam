@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.pde.ui.JunitLaunchConfig">
+<setAttribute key="additional_plugins"/>
+<booleanAttribute key="append.args" value="true"/>
+<stringAttribute key="application" value="org.eclipse.pde.junit.runtime.coretestapplication"/>
+<booleanAttribute key="askclear" value="false"/>
+<booleanAttribute key="automaticAdd" value="true"/>
+<booleanAttribute key="automaticValidate" value="false"/>
+<stringAttribute key="bootstrap" value=""/>
+<stringAttribute key="checked" value="[NONE]"/>
+<booleanAttribute key="clearConfig" value="true"/>
+<booleanAttribute key="clearws" value="true"/>
+<booleanAttribute key="clearwslog" value="true"/>
+<stringAttribute key="configLocation" value="${workspace_loc}/.metadata/.plugins/org.eclipse.pde.core/jemma.osgi.javagal"/>
+<booleanAttribute key="default" value="false"/>
+<booleanAttribute key="default_auto_start" value="true"/>
+<stringAttribute key="deselected_workspace_plugins" value="jemma.osgi.ah.adapter.http,jemma.osgi.ah.app,jemma.osgi.ah.configurator,jemma.osgi.ah.energyathome,jemma.osgi.ah.felix.console.web,jemma.osgi.ah.greenathome,jemma.osgi.ah.hac,jemma.osgi.ah.hac.lib,jemma.osgi.ah.hap.client,jemma.osgi.ah.io,jemma.osgi.ah.m2m.device,jemma.osgi.ah.upnp.energyathome,jemma.osgi.ah.webui.base,jemma.osgi.ah.webui.energyathome,jemma.osgi.ah.webui.energyathome.demo,jemma.osgi.ah.zigbee,jemma.osgi.ah.zigbee.appliances,jemma.osgi.ah.zigbee.appliances.generic,jemma.osgi.utils"/>
+<stringAttribute key="featureDefaultLocation" value="workspace"/>
+<stringAttribute key="featurePluginResolution" value="workspace"/>
+<booleanAttribute key="includeOptional" value="true"/>
+<stringAttribute key="location" value="${workspace_loc}/../junit-workspace"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/jemma.osgi.javagal"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.junit.CONTAINER" value="=jemma.osgi.javagal"/>
+<booleanAttribute key="org.eclipse.jdt.junit.KEEPRUNNING_ATTR" value="false"/>
+<stringAttribute key="org.eclipse.jdt.junit.TESTNAME" value=""/>
+<stringAttribute key="org.eclipse.jdt.junit.TEST_KIND" value="org.eclipse.jdt.junit.loader.junit4"/>
+<stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/OSGi%Minimum-1.2"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value=""/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-os ${target.os} -ws ${target.ws} -arch ${target.arch} -nl ${target.nl} -console"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="jemma.osgi.javagal"/>
+<stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dbundles.configuration.location=${resource_loc:/jemma.launch/logconf/}&#10;&#10;-Declipse.ignoreApp=true -Dosgi.noShutdown=true&#10;&#10;-Dit.telecomitalia.ah.driver.autoinstall=true&#10;&#10;-Dzgd.dongle.uri=/dev/ttyUSB0&#13;&#10;-Dzgd.dongle.speed=115200&#13;&#10;-Dzgd.dongle.type=freescale&#10;-Ddump=true&#10;&#10;-Dorg.osgi.service.http.port=8080&#10;-Dorg.eclipse.equinox.http.jetty.http.port=8080&#10;-Dorg.eclipse.equinox.http.jetty.https.enabled=false&#10;-Dorg.eclipse.equinox.http.jetty.https.port=443&#10;&#10;-Dfelix.webconsole.username=admin&#10;-Dfelix.webconsole.password=admin&#10;&#10;-Dosgi.instance.area=/tmp/&#10;&#10;-Dorg.energy_home.jemma.ah.configuration.file=EmptyConfig&#10;&#10;-Dorg.ops4j.pax.logging.DefaultServiceLog.level=DEBUG"/>
+<stringAttribute key="pde.version" value="3.2a"/>
+<stringAttribute key="product" value=""/>
+<booleanAttribute key="run_in_ui_thread" value="true"/>
+<setAttribute key="selected_features"/>
+<stringAttribute key="selected_target_plugins" value="com.google.gson@default:default,javax.servlet*2.5.0.v200806031605@default:default,javax.servlet*3.0.0.v201112011016@default:default,javax.xml@default:default,log4j@default:default,org.apache.commons.codec@default:default,org.apache.commons.httpclient@default:default,org.apache.commons.lang3@default:default,org.apache.felix.gogo.runtime@default:default,org.eclipse.equinox.console@default:default,org.eclipse.equinox.http.jetty@default:default,org.eclipse.equinox.http.servlet@default:default,org.eclipse.jetty.continuation@default:default,org.eclipse.jetty.http@default:default,org.eclipse.jetty.io@default:default,org.eclipse.jetty.security@default:default,org.eclipse.jetty.server@default:default,org.eclipse.jetty.servlet@default:default,org.eclipse.jetty.util@default:default,org.eclipse.jetty.websocket@default:default,org.eclipse.osgi.services@default:default,org.eclipse.osgi@-1:true,org.json@default:default,org.ops4j.pax.configmanager@default:default,org.ops4j.pax.logging.pax-logging-api@default:default,org.ops4j.pax.logging.pax-logging-service@default:default,org.ow2.chameleon.commons.jabsorb@default:default,org.restlet@default:default,org.rxtx@default:default"/>
+<stringAttribute key="selected_workspace_plugins" value="jemma.osgi.javagal.gui@default:default,jemma.osgi.javagal.json@default:default,jemma.osgi.javagal.rest@default:default,jemma.osgi.javagal@default:default,test-dependencies@default:default"/>
+<booleanAttribute key="show_selected_only" value="false"/>
+<booleanAttribute key="tracing" value="false"/>
+<booleanAttribute key="useCustomFeatures" value="false"/>
+<booleanAttribute key="useDefaultConfig" value="true"/>
+<booleanAttribute key="useDefaultConfigArea" value="true"/>
+<booleanAttribute key="useProduct" value="false"/>
+</launchConfiguration>
