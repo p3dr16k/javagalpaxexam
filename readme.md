@@ -1,9 +1,7 @@
-JavaGal Service
+JavaGal Pax Exam Integration Test
 ============
 
-This bundles is a GAL bundle. It manage the zigbee Stack.
-```
--Dzgd.dongle.uri=COM13
--Dzgd.dongle.speed=115200
--Dzgd.dongle.type=freescale
-```
+This is a project template for javagal pax exam integration test.
+
+
+
