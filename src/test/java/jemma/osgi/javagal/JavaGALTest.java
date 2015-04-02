@@ -54,7 +54,7 @@ public class JavaGALTest
     GalExtenderProxyFactory galfactory; 
      
     //TO-DO  move this path to configuration file.
-    public String folderPath = "/home/patrick/Sviluppo/javagal-paxexam/dump_multi";
+    public String folderPath = "javagal-paxexam-dump/dump_multi";
        
     /**
      * Environment and bundles configurationa   
@@ -150,12 +150,17 @@ public class JavaGALTest
             System.out.println("END SET LISTENER--------------------------------------");
             int count = 0;
                         
-            File dumpDirW = new File(folderPath + File.separator + 'w');
+            File homedir = new File(System.getProperty("user.home"));
+            
+            File dumpDirW = new File(homedir, folderPath );
+            
+            boolean dirExists = true;
             if(!dumpDirW.exists())
             {
                 Logger.getLogger(JavaGALTest.class.getName()).log(Level.SEVERE, "Dump directory " + folderPath + " not found.", "");
-                return;
+                dirExists = false;                
             }
+            assertTrue(dirExists);
             String[] filesW = dumpDirW.list();
             Arrays.sort(filesW);
             for(String filesW1 : filesW)

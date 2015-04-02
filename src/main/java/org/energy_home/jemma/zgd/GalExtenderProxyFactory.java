@@ -129,8 +129,8 @@ public class GalExtenderProxyFactory {
 
     public String getDirDump()
     {
+        System.out.println("DIR------------------------------> " + gal.getPropertiesManager().getDirDump());
         return gal.getPropertiesManager().getDirDump();
     }
     
-   
 }
